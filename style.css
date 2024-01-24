@@ -1,0 +1,255 @@
+
+.navbar {
+    background: #CCDE75;
+    
+ }
+
+
+.navbar-nav{
+    background-color: #CCDE75;
+    margin-left: auto;
+    
+    
+    
+}
+.nav-item{
+    background-color: #CCDE75;
+}
+.navbar a{
+    text-decoration: none;
+    color: #151901;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     background-color: transparent;
+
+
+}
+.navbar a:hover{
+    background:#f94d3a;
+    transition: 0.5sec;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color:#110c0c;
+}
+p{
+    color: #110c0c;
+}
+
+
+
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.col-2 img{
+    max-width:100% ;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px ;
+    margin: 25px 0;
+    
+}
+
+
+.jombotron {
+    background-image: url("images/restaurant-interior.jpg");
+    height: 54rem;
+
+}
+.jombo-describe {
+    padding-top: 25rem;
+    padding-left: 30px;
+    
+    background: transparent;
+}
+
+.jombo-describe h1 {
+    font-size: 80px;
+    color: #d4fffb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jombo-describe p {
+    font-size: 20px;
+    color: #A2C104;
+    font-family:  serif;
+    background: transparent;
+    max-width: 30rem;
+    text-decoration: solid;
+    text-shadow:1px 1px black ;
+
+}
+
+section{
+    background: transparent;
+    height: inherit;
+}
+
+section h1 {
+    background: transparent;
+}
+
+
+
+.btn{
+
+    display: inline-block;
+    background:rgb(248, 222, 23) !important;
+    color: #800000!important; 
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+
+
+*/.header{
+    background:#ff6123;
+}
+.container{
+    background-color: transparent;
+}
+
+.navbar{
+    color: aliceblue;
+}
+
+.ul-class-nav {
+    background: black;
+    color: aliceblue;
+}
+.navbar-custom {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+
+/* nav.nav-items{
+    background-color: #ffccff;
+}*/
+.title{
+    text-align: center;
+    margin:0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color:#800000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+
+.categories{
+    margin: 70px;
+}
+
+.col3{
+    flex-basis: 30%;
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.col-4{
+    flex-basis:45%;
+    padding: 10px;
+    min-width: 300px;
+    margin-bottom: 50px;
+}
+
+.col-4 img{
+    width:100%
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+ h4{
+    color: #542e00;
+    font-weight: normal;
+    font-family: sans-serif;
+ }
+.paragraph{
+    font-size: 20px;
+}
+
+.rating{
+    color: #dc1d04;
+}
+
+.col-4:hover{
+    transform: translateY(-8px);}
+
+.footer-container{
+    width: 100%;
+    padding: 70px 30px 20px;
+    background: black;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    background: inherit;
+}
+.socialIcons a{
+    padding: 10px;
+    margin:10px ;
+    border-radius: 50%;
+
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: #b7d230;
+    opacity:0.9;
+
+
+}
+.socialIcons a:hover{
+    background-color: #ede1e1;
+
+}
+
+footer {
+    background: black;
+    color: whitesmoke;
+}
+.footerbottom ul{
+    display: flex;
+    justify-content: center;
+}
+.footerbottom  ul li {
+    margin: 30px;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;}
